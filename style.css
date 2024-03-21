@@ -20,6 +20,7 @@ section {
   opacity: 1;
   margin-left: 10px;
 }
+
 #gistec {
   top: 14px;
   left: 1176px;
@@ -34,6 +35,15 @@ table {
   background-color: white;
   
 }
+table thead tr{
+  position: sticky;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* You can change the background color as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  z-index: 1000; /* Ensure header stays above other content */
+}
 th {
   top: 126px;
   left: 46px;
@@ -45,6 +55,7 @@ th {
 }
 
 td {
+  
   top: 248px;
   left: 46px;
   width: 1189px;
